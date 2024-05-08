@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int rad,area;
+    float   pi;
+    pi=3.14;
+    printf("Enter the radius sphere:");
+    scanf("%d",&rad);
+    area=4*pi*rad*rad;
+    printf("Area  of the sphere = %d",area);
+    return 0;
+}
